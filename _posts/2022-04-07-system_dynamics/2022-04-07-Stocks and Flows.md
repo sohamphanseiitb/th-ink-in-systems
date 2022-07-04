@@ -1,5 +1,3 @@
-# Stocks and Flows
-
 Lets understand what are **Stocks** and **Flows** which are the basic building blocks of a system.
 
 A stock is the memory of the history of changing flows within the system.  A stock in simpleterms is the amount of available assets at present - which is decided by the nature of inflowsand outflows in the past.  For instance the money in a bank account, the water in a reservoir,the trees in a forest or the number of spare parts in an inventory.  A flow is material or datathat enters or leaves a stock over a period of time.
