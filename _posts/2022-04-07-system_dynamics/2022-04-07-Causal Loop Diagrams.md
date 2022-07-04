@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Causal Loop Diagrams"
+author: "Soham Phanse"
+categories: journal
+tags: [documentation,sample]
+---
+
 A causal loop diagram is a visual representation of how the variables in the system interact and are related to each other.  The diagram consists of a set of nodes and edges.  Nodes represent the variables (or stocks) and edges are the links that represent a connection or a relation between the two variables.  A link marked positive indicates a positive relation and a link marked negative indicates a negative relation.  A positive causal link means the two nodes change in the same direction, i.e.  if the node in which the link starts decreases, the other node also decreases.
 
 ![Causal Loop Diagram](https://sohamphanseiitb.github.io/Think-in-Systems/assets/system-dynamics/CLD-I.PNG)
