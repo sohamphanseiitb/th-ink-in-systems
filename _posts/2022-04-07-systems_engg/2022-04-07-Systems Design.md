@@ -1,5 +1,3 @@
-# Systems Engineering is great, but how do they do it?
-
 > ``Systems Engineering - is an art of creating and managing complex designs."
 
 Okay, so that's basically something I made up myself, but yeah, y'all know people don't value what one says, until its quoted in double quotes, which kinda makes people feel its special. Enough of it, back to the question. 
