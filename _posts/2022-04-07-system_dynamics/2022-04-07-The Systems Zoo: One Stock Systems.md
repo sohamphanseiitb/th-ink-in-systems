@@ -1,5 +1,3 @@
-# The Systems Zoo - One Stock Systems
-
 Lets take the instance of the amount of money deposited in a bank account as our stock. Taking the annual rate of expenditure to be a% of the total amount of money and b% be the annual rate of interest.  We try to model this simple 1 stock system with the help of preliminary differential equations and the models represented above.  Let the initial amount deposited in the account be c. 
 
 ![Principal-Interest-Expenditure System Model - One Stock System](https://sohamphanseiitb.github.io/Think-in-Systems/assets/system-dynamics/interest-model.PNG)
