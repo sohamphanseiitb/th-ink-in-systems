@@ -1,4 +1,17 @@
-# Lagrange
+# Think-in-Systems
+
+Namaste everyone! Greetings from India!
+
+I am Soham Phanse, a third year Undergraduate from the Department of Aerospace Engineering at IIT Bombay. Since joining IIT Bombay, I have observed a lack of systems thinking perspective towards engineering problems in undergraduates, which is completely is natural, because no such courses are offered in the Core curriculum. 
+
+Keeping this end in view, I plan to blog about Systems Engineering and Dynamics and share my learnings from what I learnt through courses, project but more importantly by working at the Student Satellite Program. 
+
+Find the blog live, here: [Think-in-Systems: An intuitive Introduction to Systems Engineering and Dynamics](https://sohamphanseiitb.github.io/th-ink-in-systems/)
+
+
+  
+
+<!--# Lagrange
 
 Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/). For a guide on how to deploy a Jekyll site using GitHub Pages, please check out [this article](https://paulle.ca/jekyll-tutorials/deploy-jekyll-site-github-pages).
 
@@ -285,4 +298,4 @@ This theme is completely free and open source software. You may use it however y
 
 ## License
 
-Open sourced under the [MIT license](https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md).
+Open sourced under the [MIT license](https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md).-->
