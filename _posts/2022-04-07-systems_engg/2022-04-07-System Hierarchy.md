@@ -1,5 +1,3 @@
-# System Hierarchy
-
 For the ease of analysis and organization, systems are divided into subsystems, components and parts. Sometimes multiple systems are combined together to form a **System of Systems**. Let us see what these mean, one by one. 
 
 ## What is a Subsystem?
