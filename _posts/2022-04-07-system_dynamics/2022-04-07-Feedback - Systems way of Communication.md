@@ -1,5 +1,3 @@
-# Feedback - Systems Way of Communication
-
 A feedback loop is formed when changes in a stock affect the flows into or out of that stock. It is kind of a control mechanism that affects and gets affected by the stock level at that point in time.  Feedback loops can cause stocks to maintain their level within a range, grow or decline.  
 
 The standard definition can be qouted as, "A feedback loop is a closed chain of causal connections from stock, through a set of decisions or rules or physical laws or actions that are dependent on the level of the stock, and back again through a flow to change the stock." Okay, I know that's too much to gobble, but worry not, we will go through some simple examples to understand how feedback works and affects the system behavior. In general, there are two kinds of loop - Balancing or Restoring and Reinforcing.
