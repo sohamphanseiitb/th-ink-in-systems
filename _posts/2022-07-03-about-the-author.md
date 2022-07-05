@@ -37,18 +37,18 @@ I have tried it to keep it as intuitive as possible, and technical terms to a mi
 
 ### Systems Engineering
 - <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/what_is_a_system.html"> What is a System?</a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/systems_engg/more_on_systems.html">More on Systems</a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/systems_engg/systems-engineering.html"> What is Systems Engineering?</a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/systems_engg/hierarchy.html"> System Hierarchy</a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/systems_engg/system_design.html"> System Design - Selection </a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/systems_engg/reqs.html"> System Design - Requirements </a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/More-on-Systems">More on Systems</a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/Systems-Engineering"> What is Systems Engineering?</a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/System-Hierarchy"> System Hierarchy</a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/Systems-Design"> System Design - Selection </a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/What-are-Requirements"> System Design - Requirements </a>
 
 ### System Dynamics
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/system-dynamics-basics.html"> Basics of System Dynamics </a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/stocks_and_flows.html"> Stocks and Flows - Building Blocks of Systems </a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/feedback.html">Feedback - Systems Way of Communication</a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/cld.html">Causal Loop Diagrams</a>
-- <a href="https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/one_stock_sys.html">Systems Zoo - One Stock System</a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/Basics-of-System-Dynamics"> Basics of System Dynamics </a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/Stocks-and-Flows"> Stocks and Flows - Building Blocks of Systems </a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/Feedback-Systems-way-of-Communication">Feedback - Systems Way of Communication</a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/Causal-Loop-Diagrams">Causal Loop Diagrams</a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/The-Systems-Zoo-One-Stock-Systems">Systems Zoo - One Stock System</a>
 
 # Acknowledgements
 I will be honest - the blog was a small effort which I started in my vacation to document things that I knew about Systems Theory to share it with others and especially for the undergraduate community. However, I couldn't have learnt this much without the following individuals, I am forever indebted to the following individuals, for instilling a sense and interest (directly or indirectly) in systems theory.
