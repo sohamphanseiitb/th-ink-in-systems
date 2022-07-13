@@ -18,6 +18,6 @@ This was a short post, but get ready for a full fledged, simple yet revealing sy
 
 ---
 
-- [Home Page](https://sohamphanseiitb.github.io/Think-in-Systems/index.html)
-- [<< Previous Article (Feedback)](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/feedback.html)
-- [>> Next Article (Systems Zoo - One Stock System)](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/one_stock_sys.html)
+- [Home Page](https://sohamphanseiitb.github.io/th-ink-in-systems/about-the-author))
+- [<< Previous Article (Feedback)](https://sohamphanseiitb.github.io/th-ink-in-systems/Feedback-Systems-way-of-Communication)
+- [>> Next Article (Systems Zoo - One Stock System)](https://sohamphanseiitb.github.io/th-ink-in-systems/The-Systems-Zoo-One-Stock-Systems)
