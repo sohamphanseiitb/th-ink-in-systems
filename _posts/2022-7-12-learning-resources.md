@@ -4,8 +4,18 @@ title: "Learning Resources"
 author: "Soham Phanse"
 categories: journal
 tags: [documentation,sample]
-image: spools.jpg
 ---
+<!--image: spools.jpg-->
+
+
+Though systems science is very intuitive, its a bit tricky and difficult to grasp initially. However with the right reading and practice to think cohesively, mastering the art is not a big deal. Here are some books which help understand Systems Science intuitively. 
+
+- **Thinking in Systems - A Primer** - by Donella Meadows, an extremely easy to read, yet powerful book, which will help you understand concepts in depth, keeping the mathematical intricacies at bay. As the name suggests, its a primer, it doesn't make you an expert in systems theory, however it still equips you with sufficient knowledge and tools to understand use the theory to comprehend and draw conclusions about events happening around you. 
+
+- **The Fifth Discipline** - by Peter Senge, this is one of the best management works in the last 75 years, and numerous students, instructors, businesses, government have learnt from it and implemented things in real life. Its longer and explores the intersections of systems science and management, but is a must-read for people who want to explore this highly inter-disciplinary field. 
+
+- After you are done with these, you can get over and read up Jay Forrester's and John Sterman's work: Business Dynamics: Modeling for a Complex World. If you are a student at IIT Bombay, you can take up the courses AE759: Fundamentals of Systems Engineering and IE604/CS752 System Dynamics Modeling and Simulation. 
+
 
 <!--The beauty of computer programming is that you do not need to formally go to school to learn how to program. You can learn almost everything that you would need to know online, and for free. The following resources are some that I have used personally, that I highly recommend, for anyone looking to learn more about computer programming.
 
