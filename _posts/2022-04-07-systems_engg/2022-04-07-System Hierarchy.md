@@ -26,5 +26,6 @@ All in all, we can clearly see that hierarchy and organization in a system is ju
 You now know the basic barebones of a system and how it is divided into subsystems or clubbed in System of Systems. We will next look at the various processes which go on before the successful deployment of a system and not only that, the maintainance and retirement phase of any system. Stay tuned!
 
 ---
-- [Homepage](https://sohamphanseiitb.github.io/Think-in-Systems/index.html)
-- [Previous Article (What is Systems Engineering?)](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/systems_engg/systems-engineering.html)
+- [Homepage](https://sohamphanseiitb.github.io/th-ink-in-systems/about-the-author)
+- [Previous Article (What is Systems Engineering?)](https://sohamphanseiitb.github.io/th-ink-in-systems/Systems-Engineering)
+- [Next Article (How are System Designs selected?)](https://sohamphanseiitb.github.io/th-ink-in-systems/Systems-Design)
