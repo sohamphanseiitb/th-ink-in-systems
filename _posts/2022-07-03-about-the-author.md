@@ -4,6 +4,7 @@ title: "About me and the Blog"
 author: "Soham Phanse"
 categories: journal
 tags: [documentation,sample]
+image: montreal-8.jpg
 ---
 
 <!--DOCTYPE html
