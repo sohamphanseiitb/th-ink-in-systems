@@ -20,6 +20,6 @@ By now, hopefully you will be clear of how feedback works. It reacts to a certai
 Hope you are now familiar with the basics of Systems - Stocks, Flows and Feedbacks. In the next article, we will look at Causal Loop Diagrams, a nice and intuitive to graphically depict the system and gain useful insights. There's a lot of ground to cover up people! Hope you are enjoying! Stay Tuned!
 
 ---
-- [Homepage](https://sohamphanseiitb.github.io/Think-in-Systems/index.html)
-- [<< Previous Article (Stocks and Flows)](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/stocks_and_flows.html)
-- [>> Next Article (Causal Loop Diagrams)](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/cld.html)
+- [Homepage](https://sohamphanseiitb.github.io/th-ink-in-systems/about-the-author)
+- [<< Previous Article (Stocks and Flows)](https://sohamphanseiitb.github.io/th-ink-in-systems/Stocks-and-Flows)
+- [>> Next Article (Causal Loop Diagrams)](https://sohamphanseiitb.github.io/th-ink-in-systems/Causal-Loop-Diagrams)
