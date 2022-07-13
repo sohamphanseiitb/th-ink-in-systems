@@ -13,5 +13,5 @@ In the example above, the requirement "transport passengers and goods" is a func
 Requirements can also be classified on the basis of the owner, as in the entity which imposes the requirement on the system or the subsystem. They can be stakeholder requirements, system, subsystem and component level requirements to be precise. We will cover all of this in the next issue. Hope that y'all got a gist of what requirements are fundamentally. 
 
 ---
-- [Previous Article (System Design - Selection)](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/systems_engg/system_design.html)
-- [Home Page](https://sohamphanseiitb.github.io/Think-in-Systems/index.html)
+- [Home Page](https://sohamphanseiitb.github.io/th-ink-in-systems/about-the-author)
+- [Previous Article (System Design - Selection)](https://sohamphanseiitb.github.io/th-ink-in-systems/Systems-Design)
