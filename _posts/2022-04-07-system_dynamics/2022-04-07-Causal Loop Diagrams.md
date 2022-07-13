@@ -10,6 +10,8 @@ A causal loop diagram is a visual representation of how the variables in the sys
 
 ![Causal Loop Diagram](https://sohamphanseiitb.github.io/Think-in-Systems/assets/system-dynamics/CLD-I.PNG)
 
+The above system only represents 3 stocks - the total population, total births and total deaths. However, while analysing, for instance, a nation's GDP, there will be a large number of inter-connected stocks and flows which will decide the behavior of the system. Standard templates like the population growth model (goal seeking), reinforcing model (snowball down a hill, growing economy) act as basic building blocks and help in modeling complicated systems. 
+
 Causal Loop Diagrams are excellently represent the internal structure and dynamics of the system. In particular, how stocks behave to changes in other stocks, external factors. Now, that we have tools like, **Stocks**, Flows, Feedbacks and Causal Loop Diagrams in our arsenal, let us try and analyse a simple one stock system in different scenarios to check how the system responds. 
 
 This was a short post, but get ready for a full fledged, simple yet revealing system simulation! Stay tuned!
