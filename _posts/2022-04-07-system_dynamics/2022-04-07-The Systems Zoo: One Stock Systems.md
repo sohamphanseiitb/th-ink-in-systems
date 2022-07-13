@@ -23,5 +23,5 @@ Based on the figure we can conclude that when the ROI (Rate of Interest) and ROE
 
 We have used the tools to simulate a system's response in different conditions. Here, being a single stock system, it was easy to calculate and get the results. Systems get complicated when there are multiple stocks, feedbacks and external factors affecting stock level and flows. 
 
-- [Home Page](https://sohamphanseiitb.github.io/Think-in-Systems/index.html)
-- [<< Previous Article (Causal Loop Diagram)](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/cld.html)
+- [Home Page](https://sohamphanseiitb.github.io/th-ink-in-systems/about-the-author)
+- [<< Previous Article (Causal Loop Diagram)](https://sohamphanseiitb.github.io/th-ink-in-systems/Causal-Loop-Diagrams)
