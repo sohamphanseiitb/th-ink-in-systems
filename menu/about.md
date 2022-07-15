@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Namaste World!
 author: Soham Phanse
 categories: journal
