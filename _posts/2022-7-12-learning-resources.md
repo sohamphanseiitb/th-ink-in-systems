@@ -4,8 +4,9 @@ title: "Learning Resources"
 author: "Soham Phanse"
 categories: journal
 tags: [documentation,sample]
+image: spools.jpg
 ---
-<!--image: spools.jpg-->
+
 
 
 Though systems science is very intuitive, its a bit tricky and difficult to grasp initially. However with the right reading and practice to think cohesively, mastering the art is not a big deal. Here are some books which help understand Systems Science intuitively. 
