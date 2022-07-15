@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome!
+title: Namaste World!
 author: Soham Phanse
 categories: journal
 tags: [documentation, sample]
@@ -21,15 +21,11 @@ image: montral-github.jpg
 </head>
 <body>-->
   
-# Namaste World!
-
 Greetings from India!
 
 I am [Soham Phanse](https://sites.google.com/iitb.ac.in/soham-phanse/home), a final year Undergraduate from the Department of Aerospace Engineering at IIT Bombay. Since joining IIT Bombay, I have observed a lack of systems thinking perspective towards engineering problems in undergraduates, which is completely is natural, because no such courses are offered in the Core curriculum.
 
-<figure>
-  <img src="https://github.com/sohamphanseiitb/th-ink-in-systems/blob/37cba1c640e4c2bc43811333d73b0ca3dd4bd0d8/assets/img/montral-github.jpeg" height=400 width=300> </img>
- </figure>
+![That's me!](https://sohamphanseiitb/Think-in-Systems/assets/montral-github.jpeg)
 
 Keeping this end in view, I plan to blog about Systems Engineering and Dynamics and share my learnings from what I learnt through courses, projects but more importantly by working at the <a href="https://www.aero.iitb.ac.in/satlab">Student Satellite Program</a>.
 
