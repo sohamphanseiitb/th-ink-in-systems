@@ -51,6 +51,7 @@ I have tried it to keep it as intuitive as possible, and technical terms to a mi
 - <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/Feedback-Systems-way-of-Communication">Feedback - Systems Way of Communication</a>
 - <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/Causal-Loop-Diagrams">Causal Loop Diagrams</a>
 - <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/The-Systems-Zoo-One-Stock-Systems">Systems Zoo - One Stock System</a>
+- <a href="https://sohamphanseiitb.github.io/th-ink-in-systems/System-Dynamics-Modeling-of-the-IIT-Bombay-Campus"> System Dynamics Modeling </a>
 
 # Acknowledgements
 I will be honest - the blog was a small effort which I started in my vacation to document things that I knew about Systems Theory to share it with others and especially for the undergraduate community. However, I couldn't have learnt this much without the following individuals, I am forever indebted to the following individuals, for instilling a sense and interest (directly or indirectly) in systems theory.
