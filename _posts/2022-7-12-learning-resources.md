@@ -15,6 +15,9 @@ Though systems science is very intuitive, its a bit tricky and difficult to gras
 
 - **The Fifth Discipline** - by Peter Senge, this is one of the best management works in the last 75 years, and numerous students, instructors, businesses, government have learnt from it and implemented things in real life. Its longer and explores the intersections of systems science and management, but is a must-read for people who want to explore this highly inter-disciplinary field. 
 
+
+![The Fifth Discipline](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/The_fifth_discipline_cover.jpg)
+
 - After you are done with these, you can get over and read up Jay Forrester's and John Sterman's work: Business Dynamics: Modeling for a Complex World. If you are a student at IIT Bombay, you can take up the courses AE759: Fundamentals of Systems Engineering and IE604/CS752 System Dynamics Modeling and Simulation. 
 
 
