@@ -4,7 +4,6 @@ title: "Learning Resources"
 author: "Soham Phanse"
 categories: journal
 tags: [documentation,sample]
-image: spools.jpg
 ---
 
 
