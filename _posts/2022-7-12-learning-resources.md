@@ -12,6 +12,8 @@ Though systems science is very intuitive, its a bit tricky and difficult to gras
 
 - **Thinking in Systems - A Primer** - by Donella Meadows, an extremely easy to read, yet powerful book, which will help you understand concepts in depth, keeping the mathematical intricacies at bay. As the name suggests, its a primer, it doesn't make you an expert in systems theory, however it still equips you with sufficient knowledge and tools to understand use the theory to comprehend and draw conclusions about events happening around you. 
 
+![Thinking in Systems](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/Thinking_in_Systems_cover_resized.jpg)
+
 - **The Fifth Discipline** - by Peter Senge, this is one of the best management works in the last 75 years, and numerous students, instructors, businesses, government have learnt from it and implemented things in real life. Its longer and explores the intersections of systems science and management, but is a must-read for people who want to explore this highly inter-disciplinary field. 
 
 
