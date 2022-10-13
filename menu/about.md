@@ -58,6 +58,7 @@ I will be honest - the blog was a small effort which I started in my vacation to
 - [Prof. Hemendra Arya](https://www.aero.iitb.ac.in/~arya/), faculty and mentor who taught me a semester long course on Systems Engineering at IIT Bombay. 
 - [Prof. Shireesh Kedare](https://www.ese.iitb.ac.in/faculty/shireesh-b-kedare), my advisor, who introduced me to 'Systems Thinking' and its applications, while I was a fresher on campus. 
 - [Prof. Rangan Banerjee](https://www.ese.iitb.ac.in/~rb/##!/), who guided me and gave me the freedom to explore system dynamics and its applications in Socio-Economic Systems Modeling
+- [Prof. Jayendran Venkateswaran](https://www.ieor.iitb.ac.in/~jayendran/), who is guiding me to complete my undergraduate thesis on System Dynamics
 - Prof. Donella Meadows and Prof. Peter Senge, whose books 'Thinking in Systems' (after whom this blog is named) and 'The Fifth Discipline' furthered my interests and intrigued me enough to explore more. 
 
 I can't thank **my team - IIT Bombay Student Satellite Program** enough, to give me the opportunity to lead a satellite mission - wherein I could implement things that I learnt in a textbook into the real world; seniors - Shaun Zacharia, Sanskriti Bhansali, Aniruddha Ranade, Neilabh Banzal from whom I learnt a lot in terms of project management, organization theory, a lot of colleagues and juniors and friends who have had my back. Lastly I thank my Mom and Dad for all the support and encouragement they have given me from years to pursue my passion and keep working towards the goal. 
