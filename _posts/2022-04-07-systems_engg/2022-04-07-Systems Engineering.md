@@ -23,4 +23,4 @@ Fasten your seat belts! The ride's gonna be exciting!!
 ---
 - [Home Page](https://sohamphanseiitb.github.io/th-ink-in-systems/about-the-author)
 - [Previous Article (More on Systems)](https://sohamphanseiitb.github.io/th-ink-in-systems/More-on-Systems)
-- [Next Article (System Hierarchy)](https://sohamphanseiitb.github.io/th-ink-in-systems/System-Life-Cycle)
+- [Next Article (System Life Cycle)](https://sohamphanseiitb.github.io/th-ink-in-systems/System-Life-Cycle)
