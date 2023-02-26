@@ -7,6 +7,11 @@ Let's consider a car. A car is a system. It performs the function of mobility an
 
 On the other hand, the **engine** powers the automobile in a four stroke cycle, but itself has several interacting components like the piston assembly, fuel injection mechanisms, igniters, and compressors. However, mechanical power it is of little use on its own. Goods can't be transported with raw power; we need external mechanisms like the powertrain, wheels, gears, brakes to convert the rotating shaft into linear motion for mobility. In this sense, the engine performs a subfunction of 'power generation' and in conjuction external components realises mobility. Hence the **engine** is but a **subsystem**.
 
+### Your approach matters
+Observe carefully that it is you who decides what function will the system perform. It is you who decomposes the primary function into multiple sub-functions and decides how they will co-ordinate and interact amongst. Every designer has complete freedom to choose the system of interest. For me the 'car' might be the system of interest, if yes, then everything else, the engines, fuel tanks, chassis become subsystems, merely existing to support and facilitate the system. For someone else, say a mechanical engineer, the engine might be the system of interest. The car automatically, as one terms, becomes the system of systems and the rest fuel injectors, pistons become subsystems in this particular case. 
+
+Note that it is all about the reference frame and attitude you look at it from. However once the reference is defined you must ensure it is strcitly followed throughout the system life cycle. In some sense, Systems Engineering provides some fluidity over conventions by not mandating strict regulations; however one must understand that is the underlying decomposition and classification activity is important, and the rest is just jargon.
+
 ## What is a System of Systems?
 
 <figure>
