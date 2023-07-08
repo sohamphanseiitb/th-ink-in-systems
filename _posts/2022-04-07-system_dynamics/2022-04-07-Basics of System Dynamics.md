@@ -40,15 +40,27 @@ Now, here are some essential traits each model should possess. You should make s
 4. **Time unit**: Time can be measured in seconds, hours, days, months, weeks, years. Time units should be appropriately chosen according to the context of the model under question. For instance, if the model is based on economic forecasts, then 'quarters' (3 months_ would be the best unit for simulation since most of the economic data is published every quarter.
 5. **Initial Value of all Stocks**: Stocks are the history of changing flows within the system; they are integrals of the net flows. Hence an initial value is essential to produce accurate results.
 6. **Formulae/Expression of All stocks, flows, and variables**: You can custom define expressions for stocks, flows, and variables. You can set a flow to be of constant value, or to be a product of the current stock value and another factor, or anything else too.
-7. **Dimensions of all Stocks, flows, and variables**: System Dynamics is very particular about units. Vensim, too flags errors if there are any discrepancies in units. Hence you should give appropriate units to each component and conduct a dimensional analysis for the same. 
+7. **Dimensions of all Stocks, flows, and variables**: System Dynamics is very particular about units. Vensim, too flags errors if there are any discrepancies in units. Hence you should give appropriate units to each component and conduct a dimensional analysis for the same.
 
-Let's only consider the population stock and the filling and draining flows in the form of births and deaths, which alter the level of the stock. So, given a constant number of births (say, 100k per year) and deaths (say, 50k per year) (just assume it's not like it's real!) and 1000k as the initial value of the population (i.e., at time t = 0, or whenever you start **observing** the system), the population stock varies with time as follows:
+# Model Simulation
+We make a simple model for the purpose of illustration.
+1. **Population**: init_val = 1000, expression: INTEGRAL(Births - Deaths), units: units
+2. **Births**: expression: Population*Birth Rate Constant, units: units/month
+3. **Deaths**: expression: Population*Death Rate Constant, units: units/month
+4. **Birth Rate Constant**: expression: 0.1, units: Dimensionless
+5. **Death Rate Constant**: expression: 0.05, units: Dimensionless
 
-![Population Trends](https://sohamphanseiitb.github.io/Think-in-Systems/assets/system-dynamics/p2.png)
+With these model definitions, let's take a look at the trends:
 
-Now, in general, in complex systems, births, and deaths do not remain constant over time but are, in turn, dependent on the stock. We can have directly or inversely dependent flow magnitudes proportional to the stock magnitude. Just as in our population model (to a first approximation), we know the number of births is governed by the number of individuals capable of reproducing, which are directly proportional to the population, as is the number of deaths since a larger population means a more significant number of deaths. Of course, this simplistic model is not enough to fit real-world data and prove any practical use; however, it is a great learning tool to envision how large dynamical systems work and interact together.
+![Population Trends](https://github.com/sohamphanseiitb/th-ink-in-systems/blob/gh-pages/assets/img/population_trends_1.png)
 
-Till now, the flows in our model were independent of the stock; however, in the real world, this is not the case; how do they then propagate the information and communicate with the stock? Stick around to find out -- the next time I post! 
+![Population Trends](https://github.com/sohamphanseiitb/th-ink-in-systems/blob/gh-pages/assets/img/population_trends_2.png)
+
+Just as in our population model (to a first approximation), we know the number of births is governed by the number of individuals capable of reproducing, which are directly proportional to the population, as is the number of deaths since a larger population means a more significant number of deaths. Of course, this simplistic model is not enough to fit real-world data and prove any practical use; however, it is a great learning tool to envision how large dynamical systems work and interact together.
+
+Here's a small task for you now; I want you to play around with the values of the constant and check how the stocks and flows behave. Check what happens when the birth and death rate constants are equal or if the death rate constant is larger. 
+
+That's all for this time, folks! Stick around as we get into detailed conversations about system dynamics and make more complex models. 
 
 ---
 - [Home Page](https://sohamphanseiitb.github.io/Think-in-Systems/index.html)
