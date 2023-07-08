@@ -52,9 +52,9 @@ We make a simple model for the purpose of illustration.
 
 With these model definitions, let's take a look at the trends:
 
-![Population Trends](https://github.com/sohamphanseiitb/th-ink-in-systems/blob/gh-pages/assets/img/population_trends_1.png)
+![Population Trends](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/population_trends_1.png)
 
-![Population Trends](https://github.com/sohamphanseiitb/th-ink-in-systems/blob/gh-pages/assets/img/population_trends_2.png)
+![Population Trends](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/population_trends_2.png)
 
 Just as in our population model (to a first approximation), we know the number of births is governed by the number of individuals capable of reproducing, which are directly proportional to the population, as is the number of deaths since a larger population means a more significant number of deaths. Of course, this simplistic model is not enough to fit real-world data and prove any practical use; however, it is a great learning tool to envision how large dynamical systems work and interact together.
 
