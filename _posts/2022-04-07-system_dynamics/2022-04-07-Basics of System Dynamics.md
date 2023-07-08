@@ -5,9 +5,6 @@ author: "Soham Phanse"
 categories: journal
 tags: [documentation,sample]
 ---
-
-# Basics of System Dynamics
-
 By now, you must have realized that systems respond to stimuli differently based on the situation, time, and inherent structure. Systems evolve with time; even if they are made of inanimate objects, they tend to learn to respond optimally and display dynamic behavior. System Dynamics is a discipline that develops modeling methods for the inherent structure of the system to know more about how it works and make predictions based on hypothetical stimuli. 
 
 Let's take a simple example of how a country's population, or, for that matter, the world population, behaves with time. To put this forward intuitively, we will use a lot of block diagrams and illustrations; I will describe each of them as we go along! Let's get started.
