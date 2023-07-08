@@ -1,8 +1,24 @@
-Lets take the instance of the amount of money deposited in a bank account as our stock. Taking the annual rate of expenditure to be a% of the total amount of money and b% be the annual rate of interest.  We try to model this simple 1 stock system with the help of preliminary differential equations and the models represented above.  Let the initial amount deposited in the account be c. 
+---
+layout: post
+title: "Systems Zoo - One Stock Systems "
+author: "Soham Phanse"
+categories: journal
+tags: [documentation, sample]
+---
 
-![Principal-Interest-Expenditure System Model - One Stock System](https://sohamphanseiitb.github.io/Think-in-Systems/assets/system-dynamics/interest-model.PNG)
+The last time we analyzed a system dynamics model, it was easy with just 1 stock, 2 flows, and 2 variables. The relationships between variables were very straightforward and simple. This time, we take another 1-stock system, but we try to go and model tinier details in an attempt to make the model as close to reality as possible. Note that we can only aim to create a model which reflects reality perfectly; however, any model, at best, is an approximation of real-world phenomena, however accurate enough to be used for producing meaningful results. 
 
-Observe the figure carefully. The toal amount of interest earned on the savings depends on the 'Rate of Interest' and amount of money in the account. This leads to a reinforcing feedback loop, as to keeping interest rate constant, interest getting deposited back to the balance, creates more interest, which in turns increases the balance, giving rise to an exponential growth tendency (very similar to the compound interest model used in savings banks). On the other hand, the expenditure loop is a balancing loop i.e keeping the expenditure rate constant, the larger the available balance, larger the expenditure, lesser the remaining stock, lesser the expenditure. Hence as the balance increases the expenditure increases and the interest also increases. But increase in expenditure decreases the stock levels and decreases the expenditure in future. However an increase in interest increases the stock levels and increases the interest in future. You can see that just by reversing the flows into and out of the system how varied behaviors we can obtain. That is truly yhr beauty of systems. However Based on the above model we formulate the governing equation for the same. Let x(t) be the total amount of money in the account at time t (in years, t=0 corresponds to base year)
+As an example problem, let's try and model a bank account. Here, we consider the bank account to be the **stock**, which maintains a record of the amount of funds available in the account - or in layman's terms, the bank balance. Take a look at the model below, we will then dissect it piece by piece, analyze the important traits and perform some simulations. 
+
+https://github.com/sohamphanseiitb/
+
+![Bank Account - One Stock System](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/bank_account_model.jpg)
+
+Taking the annual rate of expenditure to be a% of the total amount of money and b% be the annual rate of interest.  We try to model this simple 1-stock system with the help of preliminary differential equations and the models represented above.  Let the initial amount deposited in the account be c. 
+
+
+
+Observe the figure carefully. The total amount of interest earned on the savings depends on the 'Rate of Interest' and amount of money in the account. This leads to a reinforcing feedback loop, as to keeping interest rate constant, interest getting deposited back to the balance, creates more interest, which in turns increases the balance, giving rise to an exponential growth tendency (very similar to the compound interest model used in savings banks). On the other hand, the expenditure loop is a balancing loop i.e keeping the expenditure rate constant, the larger the available balance, larger the expenditure, lesser the remaining stock, lesser the expenditure. Hence as the balance increases the expenditure increases and the interest also increases. But increase in expenditure decreases the stock levels and decreases the expenditure in future. However an increase in interest increases the stock levels and increases the interest in future. You can see that just by reversing the flows into and out of the system how varied behaviors we can obtain. That is truly yhr beauty of systems. However Based on the above model we formulate the governing equation for the same. Let x(t) be the total amount of money in the account at time t (in years, t=0 corresponds to base year)
 
 <script>
 MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}, svg: {fontCache: 'global'}};
