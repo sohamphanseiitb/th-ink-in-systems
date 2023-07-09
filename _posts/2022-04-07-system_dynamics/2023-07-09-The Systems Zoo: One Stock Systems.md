@@ -18,22 +18,23 @@ As an example problem, let's try and model a bank account. Here, we consider the
 ![Bank Account - One Stock System](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/bank_account_model.jpg)
 
 Before going on to simulations, let's take a detailed look at the model components.
+
+## Model Description
+
 | Sr. No | Component Name | Short Name | Component Type | Units | Expression | Initial Value | Explanation |
 | ------ | -------------- | ---------- | -------------- | ----- | ---------- | ------------- | ----------- | 
-| 1 | Bank Account Balance | BAB | Stock | $ | $$\int(Income - Expenditure)$$ | 100 | Records the available account balance |
-| 2 | Expenditure | EXP | Flow | $/month | IF THEN ELSE ((BAB-MINSAVTGT)>0 , (BAB-MINSAVTGT)*SPENTEND, 0) | | records monthly expenditure |
-| 3 | Expense Coverage | EXPCOV | Variable | month | 12 | | Duration for which the current balance should suffice wrt to basic monthly expenditure|
-| 4 | Income | INC | Flow | $/month | SAL + INT | | Records monthly income from all sources |
-| 5 | Interest | INT | Variable | $/month | $$\frac{BAB*INTRT}{100}$$ | | Registers principal interest gained from bank for savings|
+| 1 | Bank Account Balance | BAB | Stock | \$ | $$ \int(Income - Expenditure) $$ | 100 | Records the available account balance |
+| 2 | Expenditure | EXP | Flow | \$/month | IF THEN ELSE ((BAB-MINSAVTGT)>0, (BAB-MINSAVTGT)XSPENTEND, 0 | NA | records monthly expenditure |
+| 3 | Expense Coverage | EXPCOV | Variable | month | 12 | NA | Duration for which the current balance should suffice wrt to basic monthly expenditure|
+| 4 | Income | INC | Flow | \$/month | SAL + INT | | Records monthly income from all sources |
+| 5 | Interest | INT | Variable | \$/month | $$ \frac{BAB\timesINTRT}{100} $$| | Registers principal interest gained from bank for savings|
 | 6 | Interest Rate | INTRT | Variable | 1/month | 0.33 | | Rate of interest the bank offers for savings account |
 | 7 | Minimum Savings Target | MINSAVTGT | Variable | $ | EXPCOV*MONEXP | | Minimum amount of bank balance to cover basic monthly expenditure for EXPCOV amount of duration|
 | 8 | Monthly Expenditure | MONEXP | Variable | $ | 20 | | Registers monthly expenditure |
 | 9 | Salary | SAL | Variable | $/month | 50 | | Registers amount of salary earned per month |
 | 10 | Spending Tendency | SPENTEND | Variable | Dimensionless | 0.15 | | Records the spending tendency of the account owner - the higher the value, the higher the user's spending - this acts as a multiplier and hence is dimensionless |
 
-
-
-Taking the annual rate of expenditure to be a% of the total amount of money and b% be the annual rate of interest.  We try to model this simple 1-stock system with the help of preliminary differential equations and the models represented above.  Let the initial amount deposited in the account be c. 
+Although we could make a simple model based on income and expenditure where the flows are independent
 
 Observe the figure carefully. The total amount of interest earned on the savings depends on the 'Rate of Interest' and amount of money in the account. This leads to a reinforcing feedback loop, as to keeping interest rate constant, interest getting deposited back to the balance, creates more interest, which in turns increases the balance, giving rise to an exponential growth tendency (very similar to the compound interest model used in savings banks). On the other hand, the expenditure loop is a balancing loop i.e keeping the expenditure rate constant, the larger the available balance, larger the expenditure, lesser the remaining stock, lesser the expenditure. Hence as the balance increases the expenditure increases and the interest also increases. But increase in expenditure decreases the stock levels and decreases the expenditure in future. However an increase in interest increases the stock levels and increases the interest in future. You can see that just by reversing the flows into and out of the system how varied behaviors we can obtain. That is truly yhr beauty of systems. However Based on the above model we formulate the governing equation for the same. Let x(t) be the total amount of money in the account at time t (in years, t=0 corresponds to base year)
 
