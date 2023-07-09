@@ -58,7 +58,7 @@ Now, here are some tasks for you to try out. Vary the parameters from the model:
 ## Don't over-rely!
 
 Now, in the case of simple systems, we can use common logic and overall system sense to qualitatively predict results based on the model. 
-1. Say the spending tendency is now set to zero. What is likely to happen? So since the spending tendency is set to zero, the expenditure will be always zero. So there are 
+1. Say the spending tendency is now set to zero. What is likely to happen? So since the spending tendency is set to zero, the expenditure will always be zero. So there the bank balance stock will always keep increasing and won't stabilise at any value. 
 
 
 
