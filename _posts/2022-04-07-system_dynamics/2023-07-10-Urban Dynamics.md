@@ -46,7 +46,9 @@ The business (or business structures) in the area also responds to land availabi
 | 13 | Persons per House | variable | number of residing per house | 4 | Person/House |
 | 14 | total land | variable | total available | 1000 | acre |
 
-<!-- Hey folks! To tie up everything we have seen so far, I will walk you through a simple and every ready case. It is about constructing a system dynamics model of the population of a particular university campus. Incidentally, as you might have guessed, this is one of the simplest population models since we hace strict rules with respect to increase in number of students, hence accurate estimates can be obtained and special statistical techniques are not required. The model with suitable (a lot :P) can be extended to construct models predicting a city or a nation wide population estimate.
+
+
+<!-- Hey folks! To tie up everything we have seen so far, I will walk you through a simple and every ready case. It is about constructing a system dynamics model of the population of a particular university campus. Incidentally, as you might have guessed, this is one of the simplest population models since we hace strict rules with respect to increase in number of students. Hence accurate estimates can be obtained and special statistical techniques are not required. The model with suitable (a lot :P) can be extended to construct models predicting a city or a nation wide population estimate.
 
 Since you peeps should know the background, I was working to model the energy consumption trends on my university campus. Since energy consumption heavily depends on the numbers of users and usage per capita, my immediate task was to estimate the total populaiton living on campus. The framework starts with obtaining basic data about the number of students, the student to faculty ratio, administration staff, dependents living on campus and estimating admission rates for students, hiring and attrition rates for professors and other staff members on campus.
 
