@@ -57,17 +57,25 @@ Now, here are some tasks for you to try out. Vary the parameters from the model:
 
 ## Don't over-rely!
 
-Now, in the case of simple systems, we can use common logic and overall system sense to qualitatively predict results based on the model. 
+Now, in the case of simple systems, we can use common logic and overall system sense to qualitatively predict results based on the model. So you don't always need to simulate the model. 
+
 1. Say the spending tendency is now set to zero. What is likely to happen? So since the spending tendency is set to zero, the expenditure will always be zero. So there, the bank balance stock will always keep increasing and won't stabilize at any value.
-2. If you increase the interest rate, then the overall general system behavior is similar. However, the bank account balance now stabilizes at a higher value. 
+2. If you increase the interest rate, then the overall general system behavior is similar. However, the bank account balance now stabilizes at a higher value.
+3. Now, assume the monthly expenditure increases - what will happen? First of all, how will you model this change? Will you change the variable expression, or would you introduce a new stock for the monthly expenditure? How will the stock change - can you use inflation data to somehow realistically predict the increase the expenditure? Think about it and try it out on your own.
 
+Here's a result of the bank balance stock and income expenditure flows when the interest rate was 4pcpa and 8pcpa, respectively. 
 
+![Change in interest rate - trends in bank balance](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/change_in_interest_rate_bank_balance.png)
 
-<!-- Based on the figure, we can conclude that when the ROI (Rate of Interest) and ROE(Rate of Expenditure) are equal, the stock level will be maintained at a constant rate. We explore the stock level behavior when either the ROI or ROE is zero.  When we have a zero ROE and a finite ROI, we can see exponential growth in the stock levels; thus, we can conclude that in such an event, it is the reinforcing loop that regulates the behavior of the stock level and causes such exponential growth.  Whereas in the event of zero ROI but finite ROE, we can see that the decline is very slow as compared to the earlier case, hinting that there is a balancing loop regulating the behaviour.  In the first case, more amount creates more interest, which results in more amount – inducing a coupling and eventually exponential nature.  In the second case, less amount means less expenditure which results in better retention of the available amount – displaying the balancing nature.
+![Change in interest rate - trends in income and expenditure](https://github.com/sohamphanseiitb/th-ink-in-systems/assets/img/change_in_interest_rate_income_expenditure.png)
+
+That's it for this time, lads! Next time, we will look at more involved systems and real-world case studies! Till then, Saayonaara!
+
+<!-- Based on the figure, we can conclude that when the ROI (Rate of Interest) and ROE(Rate of Expenditure) are equal, the stock level will be maintained at a constant rate. We explore the stock level behavior when either the ROI or ROE is zero.  When we have a zero ROE and a finite ROI, we can see exponential growth in the stock levels; thus, we can conclude that in such an event, it is the reinforcing loop that regulates the behavior of the stock level and causes such exponential growth.  Whereas in the event of zero ROI but finite ROE, we can see that the decline is very slow as compared to the earlier case, hinting that there is a balancing loop regulating the behavior.  In the first case, more amount creates more interest, which results in more amount – inducing a coupling and eventually exponential nature.  In the second case, less amount means less expenditure which results in better retention of the available amount – displaying the balancing nature.
 
 ![Balancing and Reinforcing Feedback loops at play](https://sohamphanseiitb.github.io/Think-in-Systems/assets/system-dynamics/interest-model-2.png)
 
-We have used the tools to simulate a system's response in different conditions. Here, being a single stock system, it was easy to calculate and get the results. Systems get complicated when there are multiple stocks, feedbacks and external factors affecting stock level and flows. -->
+We have used the tools to simulate a system's response in different conditions. Here, being a single stock system, it was easy to calculate and get the results. Systems get complicated when there are multiple stocks, feedback, and external factors affecting stock levels and flows. -->
 
 - [Home Page](https://sohamphanseiitb.github.io/th-ink-in-systems/about-the-author)
 - [<< Previous Article (Causal Loop Diagram)](https://sohamphanseiitb.github.io/th-ink-in-systems/Causal-Loop-Diagrams)
