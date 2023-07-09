@@ -51,18 +51,19 @@ Here is how the bank balance stock and the income and expenditure flows behave w
 
 ![Income Expenditure Trends](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/income_expenditure.png)
 
-If you observe the trends, the bank balance increases and then stabilises at a certain level. Similarly, the income and expenditure flow too stabilise at a particular level - equal to each other. Because they are stabilising at the same level - the magnitude of inflow and outflow is equal, and the system is in a dynamic equilibrium. If you have studied linear control theory, then you will know that this response is very similar to the first-order system. When the output is affected by the input to the first order. 
+If you observe the trends, the bank balance increases and then stabilizes at a certain level. Similarly, the income and expenditure flow too stabilize at a particular level - equal to each other. Because they are stabilizing at the same level - the magnitude of inflow and outflow is equal, and the system is in a dynamic equilibrium. If you have studied linear control theory, then you will know that this response is very similar to the first-order system. When the output is affected by the input to the first order. 
 
 Now, here are some tasks for you to try out. Vary the parameters from the model: try setting the spending tendency to zero, or you can set the interest rate at a higher value and then check how the system behaves.
 
 ## Don't over-rely!
 
 Now, in the case of simple systems, we can use common logic and overall system sense to qualitatively predict results based on the model. 
-1. Say the spending tendency is now set to zero. What is likely to happen? So since the spending tendency is set to zero, the expenditure will always be zero. So there the bank balance stock will always keep increasing and won't stabilise at any value. 
+1. Say the spending tendency is now set to zero. What is likely to happen? So since the spending tendency is set to zero, the expenditure will always be zero. So there, the bank balance stock will always keep increasing and won't stabilize at any value.
+2. If you increase the interest rate, then the overall general system behavior is similar. However, the bank account balance now stabilizes at a higher value. 
 
 
 
-<!-- Based on the figure, we can conclude that when the ROI (Rate of Interest) and ROE(Rate of Expenditure) are equal, the stock level will be maintained at a constant rate. We explore the stock level behaviour when either the ROI or ROE are zero.  When we have a zero ROE and a finite ROI, we can see exponential growth in the stock levels; thus, we can conclude that in such an event, it is the reinforcing loop that regulates the behaviour of the stock level and causes such exponential growth.  Whereas in the event of zero ROI but finite ROE, we can see that the decline is very slow as compared to the earlier case, hinting that there is a balancing loop regulating the behaviour.  In the first case, more amount creates more interest, which results in more amount – inducing a coupling and eventually exponential nature.  In the second case, less amount means less expenditure which results in better retention of the available amount – displaying the balancing nature.
+<!-- Based on the figure, we can conclude that when the ROI (Rate of Interest) and ROE(Rate of Expenditure) are equal, the stock level will be maintained at a constant rate. We explore the stock level behavior when either the ROI or ROE is zero.  When we have a zero ROE and a finite ROI, we can see exponential growth in the stock levels; thus, we can conclude that in such an event, it is the reinforcing loop that regulates the behavior of the stock level and causes such exponential growth.  Whereas in the event of zero ROI but finite ROE, we can see that the decline is very slow as compared to the earlier case, hinting that there is a balancing loop regulating the behaviour.  In the first case, more amount creates more interest, which results in more amount – inducing a coupling and eventually exponential nature.  In the second case, less amount means less expenditure which results in better retention of the available amount – displaying the balancing nature.
 
 ![Balancing and Reinforcing Feedback loops at play](https://sohamphanseiitb.github.io/Think-in-Systems/assets/system-dynamics/interest-model-2.png)
 
