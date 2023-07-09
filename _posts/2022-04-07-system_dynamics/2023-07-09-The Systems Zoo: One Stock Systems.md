@@ -67,7 +67,7 @@ Here's a result of the bank balance stock and income expenditure flows when the 
 
 ![Change in interest rate - trends in bank balance](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/change_in_interest_rate_bank_balance.png)
 
-![Change in interest rate - trends in income and expenditure](https://github.com/sohamphanseiitb/th-ink-in-systems/assets/img/change_in_interest_rate_income_expenditure.png)
+![Change in interest rate - trends in income and expenditure](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/change_in_interest_rate_income_expenditure.png)
 
 That's it for this time, lads! Next time, we will look at more involved systems and real-world case studies! Till then, Saayonaara!
 
