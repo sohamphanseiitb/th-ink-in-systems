@@ -25,7 +25,7 @@ Before going on to simulations, let's take a detailed look at the model componen
 | Sr. No | Component Name | Short Name | Component Type | Units | Expression | Initial Value | Explanation |
 | ------ | -------------- | ---------- | -------------- | ----- | ---------- | ------------- | ----------- | 
 | 1 | Bank Account Balance | BAB | Stock | \$ | $$ \int(Income - Expenditure) $$ | 100 | Records the available account balance |
-| 2 | Expenditure | EXP | Flow | \$/month | IF THEN ELSE ((BAB-MINSAVTGT)>0, (BAB-MINSAVTGT)XSPENTEND, 0 | NA | records monthly expenditure |
+| 2 | Expenditure | EXP | Flow | \$/month | IF THEN ELSE ((BAB-MINSAVTGT)>0, (BAB-MINSAVTGT)XSPENTEND + MONEXP, MONEXP | NA | records monthly expenditure |
 | 3 | Expense Coverage | EXPCOV | Variable | month | 12 | NA | Duration for which the current balance should suffice wrt to basic monthly expenditure|
 | 4 | Income | INC | Flow | \$/month | SAL + INT | | Records monthly income from all sources |
 | 5 | Interest | INT | Variable | \$/month | $$ \frac{BAB \times INTRT}{100} $$| | Registers principal interest gained from bank for savings|
@@ -35,7 +35,7 @@ Before going on to simulations, let's take a detailed look at the model componen
 | 9 | Salary | SAL | Variable | $/month | 50 | | Registers amount of salary earned per month |
 | 10 | Spending Tendency | SPENTEND | Variable | Dimensionless | 0.15 | | Records the spending tendency of the account owner - the higher the value, the higher the user's spending - this acts as a multiplier and hence is dimensionless |
 
-Although we could make a simple model based on income and expenditure where the flows are independent of the stock, we add an additional complexity to take the model closer to reality. So in our model, the inflows and outflows both are dependent on the stock levels. If you think about it, then it makes sense, isn't it? Everyone only spends as much as they can earn back - if someone earns more, they can afford to spend more. Also, everyone (okay, every rational human being lol) maintains a target of savings to fend for basic needs like housing, clothing, food, medical emergencies, et al for some duration of time - in case any untoward event happens, like if they lose their job, or their employer closes down. 
+Although we could make a simple model based on income and expenditure where the flows are independent of the stock, we add an additional complexity to take the model closer to reality. So in our model, the inflows and outflows both are dependent on the stock levels. If you think about it, then it makes sense, isn't it? Everyone only spends as much as they can earn back - if someone earns more, they can afford to spend more. Also, everyone (okay, every rational human being lol) maintains a target of savings to fend for basic needs like housing, clothing, food, medical emergencies, et al., for some duration of time - in case any untoward event happens, like if they lose their job, or their employer closes down. 
 
 Observe the figure carefully. The total amount of interest earned on the savings depends on the 'Rate of Interest' and the bank balance. This leads to a reinforcing feedback loop, provided the interest rate is kept constant, interest getting deposited back to the balance creates more interest, which in turn increases the balance, giving rise to an exponential growth tendency. On the other hand, the expenditure loop is a balancing loop, i.e., the higher the difference between bank balance and minimum savings target, the higher expenditure is - which in turn causes a reduction in the bank balance, which in turn causes a reduction in expenditure in the next iteration. So this acts as a balancing loop - though here, it doesn't directly depend on the bank balance but on various other factors as well. 
 
@@ -45,7 +45,24 @@ Here, it should be stated that the model is not perfect -- it doesn't accurately
 
 # Model Simulation
 
-<!-- Based on the figure we can conclude that when the ROI (Rate of Interest) and ROE(Rate of Expenditure) are equal the stock level will be maintained at a constant rate. We explore the stock level behaviour when either of the ROI or ROE are zero.  When we have a zero ROE and a finite ROI, we can see exponentialgrowth in the stock levels, thus we can conclude that in such an event it is the reinforcing loopthat regulates the behaviour of the stock level and causes such exponential growth.  Whereasin the event of zero ROI but finite ROE, we can see that the decline is very slow as comparedto the earlier case, hinting that there is a balancing loop regulating the behaviour.  In the firstcase, more amount creates more interest, which results into more amount – inducing a couplingand eventually exponential nature.  In the second case, less amount means less expenditurewhich results into better retention of the available amount – displaying the balancing nature.
+Here is how the bank balance stock and the income and expenditure flows behave with time.
+
+![Bank Balance Trends](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/bank_acc_balance.png)
+
+![Income Expenditure Trends](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/income_expenditure.png)
+
+If you observe the trends, the bank balance increases and then stabilises at a certain level. Similarly, the income and expenditure flow too stabilise at a particular level - equal to each other. Because they are stabilising at the same level - the magnitude of inflow and outflow is equal, and the system is in a dynamic equilibrium. If you have studied linear control theory, then you will know that this response is very similar to the first-order system. When the output is affected by the input to the first order. 
+
+Now, here are some tasks for you to try out. Vary the parameters from the model: try setting the spending tendency to zero, or you can set the interest rate at a higher value and then check how the system behaves.
+
+## Don't over-rely!
+
+Now, in the case of simple systems, we can use common logic and overall system sense to qualitatively predict results based on the model. 
+1. Say the spending tendency is now set to zero. What is likely to happen? So since the spending tendency is set to zero, the expenditure will be always zero. So there are 
+
+
+
+<!-- Based on the figure, we can conclude that when the ROI (Rate of Interest) and ROE(Rate of Expenditure) are equal, the stock level will be maintained at a constant rate. We explore the stock level behaviour when either the ROI or ROE are zero.  When we have a zero ROE and a finite ROI, we can see exponential growth in the stock levels; thus, we can conclude that in such an event, it is the reinforcing loop that regulates the behaviour of the stock level and causes such exponential growth.  Whereas in the event of zero ROI but finite ROE, we can see that the decline is very slow as compared to the earlier case, hinting that there is a balancing loop regulating the behaviour.  In the first case, more amount creates more interest, which results in more amount – inducing a coupling and eventually exponential nature.  In the second case, less amount means less expenditure which results in better retention of the available amount – displaying the balancing nature.
 
 ![Balancing and Reinforcing Feedback loops at play](https://sohamphanseiitb.github.io/Think-in-Systems/assets/system-dynamics/interest-model-2.png)
 
