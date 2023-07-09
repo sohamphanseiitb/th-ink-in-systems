@@ -18,10 +18,19 @@ As an example problem, let's try and model a bank account. Here, we consider the
 ![Bank Account - One Stock System](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/bank_account_model.jpg)
 
 Before going on to simulations, let's take a detailed look at the model components.
-| Sr. No | Component Name | Component Type | Units | Expression | Initial Value |
-| ------ | -------------- | -------------- | ----- | ---------- | ------------- |
-| 1 | Bank Account Balance | Stock | $ | $$\int(Income - Expenditure)$$ | 100 |
-| 2 | Expenditure | Flow | $/month | IF THEN ELSE((Bank Account Balance-Minimum Savings Target) $$\geq 0$$ , (Bank Account Balance-Minimum Savings Target) $$\times$$ Spending Tendency, 0) | 
+| Sr. No | Component Name | Short Name | Component Type | Units | Expression | Initial Value |
+| ------ | -------------- | ---------- | -------------- | ----- | ---------- | ------------- |
+| 1 | Bank Account Balance | BAB | Stock | $ | $$\int(Income - Expenditure)$$ | 100 |
+| 2 | Expenditure | EXP | Flow | $/month | IF THEN ELSE((BAB-MINSAVTGT)>0 , (BAB-MINSAVTGT)*SPENTEND, 0) | |
+| 3 | Expense Coverage | EXPCOV | Variable | month | 12 | |
+| 4 | Income | INC | Flow | $/month | SAL + INT | |
+| 5 | Interest | INT | Variable | $/month | $$\frac{BAB*INTRT}{100}$$ | |
+| 6 | Interest Rate | INTRT | Variable | 1/month | 0.33 | |
+| 7 | Minimum Savings Target | MINSAVTGT | Variable | $ | EXPCOV*MONEXP | |
+| 8 | Monthly Expenditure | MONEXP | Variable | $ | 20 | |
+| 9 | Salary | SAL | Variable | $/month | 50 | |
+| 10 | Spending Tendency | SPENTEND | Variable | Dimensionless | 0.15 | |
+
 
 
 Taking the annual rate of expenditure to be a% of the total amount of money and b% be the annual rate of interest.  We try to model this simple 1-stock system with the help of preliminary differential equations and the models represented above.  Let the initial amount deposited in the account be c. 
