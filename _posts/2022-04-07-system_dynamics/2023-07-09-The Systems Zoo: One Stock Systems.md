@@ -18,18 +18,18 @@ As an example problem, let's try and model a bank account. Here, we consider the
 ![Bank Account - One Stock System](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/bank_account_model.jpg)
 
 Before going on to simulations, let's take a detailed look at the model components.
-| Sr. No | Component Name | Short Name | Component Type | Units | Expression | Initial Value |
-| ------ | -------------- | ---------- | -------------- | ----- | ---------- | ------------- |
-| 1 | Bank Account Balance | BAB | Stock | $ | $$\int(Income - Expenditure)$$ | 100 |
-| 2 | Expenditure | EXP | Flow | $/month | IF THEN ELSE((BAB-MINSAVTGT)>0 , (BAB-MINSAVTGT)*SPENTEND, 0) | |
-| 3 | Expense Coverage | EXPCOV | Variable | month | 12 | |
-| 4 | Income | INC | Flow | $/month | SAL + INT | |
-| 5 | Interest | INT | Variable | $/month | $$\frac{BAB*INTRT}{100}$$ | |
-| 6 | Interest Rate | INTRT | Variable | 1/month | 0.33 | |
-| 7 | Minimum Savings Target | MINSAVTGT | Variable | $ | EXPCOV*MONEXP | |
-| 8 | Monthly Expenditure | MONEXP | Variable | $ | 20 | |
-| 9 | Salary | SAL | Variable | $/month | 50 | |
-| 10 | Spending Tendency | SPENTEND | Variable | Dimensionless | 0.15 | |
+| Sr. No | Component Name | Short Name | Component Type | Units | Expression | Initial Value | Explanation |
+| ------ | -------------- | ---------- | -------------- | ----- | ---------- | ------------- | ----------- | 
+| 1 | Bank Account Balance | BAB | Stock | $ | $$\int(Income - Expenditure)$$ | 100 | Records the available account balance |
+| 2 | Expenditure | EXP | Flow | $/month | IF THEN ELSE ((BAB-MINSAVTGT)>0 , (BAB-MINSAVTGT)*SPENTEND, 0) | | records monthly expenditure |
+| 3 | Expense Coverage | EXPCOV | Variable | month | 12 | | Duration for which the current balance should suffice wrt to basic monthly expenditure|
+| 4 | Income | INC | Flow | $/month | SAL + INT | | Records monthly income from all sources |
+| 5 | Interest | INT | Variable | $/month | $$\frac{BAB*INTRT}{100}$$ | | Registers principal interest gained from bank for savings|
+| 6 | Interest Rate | INTRT | Variable | 1/month | 0.33 | | Rate of interest the bank offers for savings account |
+| 7 | Minimum Savings Target | MINSAVTGT | Variable | $ | EXPCOV*MONEXP | | Minimum amount of bank balance to cover basic monthly expenditure for EXPCOV amount of duration|
+| 8 | Monthly Expenditure | MONEXP | Variable | $ | 20 | | Registers monthly expenditure |
+| 9 | Salary | SAL | Variable | $/month | 50 | | Registers amount of salary earned per month |
+| 10 | Spending Tendency | SPENTEND | Variable | Dimensionless | 0.15 | | Records the spending tendency of the account owner - the higher the value, the higher the user's spending - this acts as a multiplier and hence is dimensionless |
 
 
 
