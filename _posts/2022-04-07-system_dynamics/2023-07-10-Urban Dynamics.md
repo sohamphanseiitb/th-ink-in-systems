@@ -46,9 +46,14 @@ The business (or business structures) in the area also responds to land availabi
 | 13 | Persons per House | variable | number of residing per house | 4 | Person/House |
 | 14 | total land | variable | total available | 1000 | acre |
 
+> **Note**: Use a final simulation time of 60 years, with a time step of 0.25.
 
+### Problem 1
+The SFD model has been given as follows. We need to mark the links and loops with polarities and types. Link polarities can either be + or -, and loop types can either be B or R, i.e., balancing or reinforcing. 
 
-<!-- Hey folks! To tie up everything we have seen so far, I will walk you through a simple and ready case. It is about constructing a system dynamics model of the population of a particular university campus. Incidentally, as you might have guessed, this is one of the simplest population models since we hace strict rules with respect to the increase in the number of students. Hence accurate estimates can be obtained, and special statistical techniques are not required. The model with suitable (a lot :P) can be extended to construct models predicting a city or a nationwide population estimate.
+![Urban Dynamics SFD Model](https://sohamphanseiitb.github.io/th-ink-in-systems/assets/img/urban%20dynamics%20model.jpg)
+
+<!-- Hey folks! To tie up everything we have seen so far, I will walk you through a simple and ready case. It is about constructing a system dynamics model of the population of a particular university campus. Incidentally, as you might have guessed, this is one of the simplest population models since we have strict rules with respect to the increase in the number of students. Hence accurate estimates can be obtained, and special statistical techniques are not required. The model with suitable (a lot :P) can be extended to construct models predicting a city or a nationwide population estimate.
 
 Since you peeps should know the background, I was working to model the energy consumption trends on my university campus. Since energy consumption heavily depends on the number of users and usage per capita, my immediate task was to estimate the total population living on campus. The framework starts with obtaining basic data about the number of students, the student-to-faculty ratio, administration staff, and dependents living on campus, and estimating admission rates for students, hiring, and attrition rates for professors and other staff members on campus.
 
