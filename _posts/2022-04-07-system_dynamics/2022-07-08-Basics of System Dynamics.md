@@ -63,6 +63,5 @@ Here's a small task for you now; I want you to play around with the values of th
 That's all for this time, folks! Stick around as we get into detailed conversations about system dynamics and make more complex models. 
 
 ---
-- [Home Page](https://sohamphanseiitb.github.io/Think-in-Systems/index.html)
-- [<< Previous Article - What is Systems Engineering?](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/systems_engg/systems-engineering.html)
-- [>> Next Article - Stocks and Flows](https://sohamphanseiitb.github.io/Think-in-Systems/Systems_Theory/system_dynamics/stocks_and_flows.html)
+- [Home Page](https://sohamphanseiitb.github.io/th-ink-in-systems/about.html)
+- [Next Up: Stocks and Flows](https://sohamphanseiitb.github.io/th-ink-in-systems/Stocks-and-Flows.html)
